@@ -2,21 +2,50 @@
 <html>
   
 
-<head>
-    <center>
-    <img src = "pictures/Idir.jpg"/>
-    <title>Ici et Ailleurs</title>
+ <head>
 
+   <title>Ici et Ailleurs</title>
+
+    <link href="style.css"
+    rel="stylesheet"
+    type="text/css"/>
+   
+   <style> 
+
+    body {
+        background-color: linen;
+    }
+    
+    h1 {
+        color: maroon;
+        
+    }
+
+    </style>
+
+           
+</head>
+<body>
+       
+ <div class="imageAlbum" > 
+    <center> 
+    <img src = "pictures/Idir.jpg"/>
+               
     <h1>Ici et Ailleurs</h1>
-    <h2><a href="https://www.google.com">Idir</a></h2>
+
+    <h2 id="website"><a href="https://www.google.com">Idir</a></h2>
     <h3>2017</h3>
     </center>
-    <hr>
-</head> 
-<body>    
-    <center><h2>Band Members and Producer</h2></center>
+ </div> 
+
+ <hr>
+    
  
-   
+ 
+<div class= "contain">   
+    <center><h2 style="color:grey;font-style:italic ;" >Band Members and Producer</h2></center>
+ 
+       <div id="people">
         <ul>
         <li>Person One - Idir</li>
         <li>Two - Guitar</li>
@@ -24,8 +53,9 @@
         <li>Person Four - Drums</li>
         <li>Producer</li>
         </ul>
-    
+        </div>
     <center><h2>Tracks</h2></center>
+    <div class="titles">
     <table border="1" width="100%" >
         <tr bgcolor="grey">
             <th>Track #</th>
@@ -49,7 +79,8 @@
             <td colspan="4"><center>3:5</center></td>
         </tr>    
     </table>
-
+    </div>
+</div>
 </body>
    
 </html>
