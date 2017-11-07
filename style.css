@@ -11,4 +11,11 @@
 .contain{margin-left:20%; }
 #people{margin-left: 10%;
 font-style: italic;}
-.titles{margin-left:10% ;margin-right: 10%;margin-bottom:5% }
+.titles{margin-left:10% ;margin-right: 10%;margin-bottom:5% ;
+       font-style :italic}
+
+tbody tr:nth-child(even){background-color:ghostwhite}
+tbody tr:nth-child(odd){background-color:gainsboro}
+
+a:hover{text-decoration:none;
+         color:gold ;}
